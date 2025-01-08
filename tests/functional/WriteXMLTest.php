@@ -43,7 +43,12 @@
 
 namespace CFPropertyList;
 
-error_reporting(E_ALL|E_STRICT);
+if (PHP_VERSION_ID >= 70400) {
+    error_reporting(E_ALL);
+} else {
+    error_reporting(E_ALL|E_STRICT);
+}
+
 ini_set('display_errors', 'on');
 
 class WriteXMLTest extends \PHPUnit\Framework\TestCase
