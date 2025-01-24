@@ -1,7 +1,7 @@
 repository:
   name: CFPropertyList
   description: PHP Implementation of Apple's PList (binary and xml)
-  homepage: http://teclib.github.io/CFPropertyList/
+  homepage: http://moodlehq.github.io/CFPropertyList/
   topics: apple, plist
   private: false
   has_issues: true
