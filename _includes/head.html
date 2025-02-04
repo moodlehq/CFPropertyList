@@ -23,7 +23,7 @@
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:site_name" content="{{ name }}"/>
 
-  <meta property="og:image" content="{{ 'images/logo2.png' | absolute_url }}" />
+  <meta property="og:image" content="{{ 'images/logo.png' | absolute_url }}" />
 
   <meta name="description" content="{{ page.excerpt | default: site.github.project_tagline | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta name="og:description" content="{{ page.excerpt | default: site.github.project_tagline | strip_html | normalize_whitespace | truncate: 160 | escape }}">
@@ -36,7 +36,6 @@
   <link rel="stylesheet" href="{{ "/css/flyve-mdm.min.css" | absolute_url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
   <link rel="stylesheet" href="{{ 'css/syntax.css' | absolute_url }}" /> 
-  <link rel="icon" href="http://www.teclib-edition.com/wp-content/uploads/2016/02/favicon-teclib.fav_-1.png">
 
   {% if page.layout == 'jazzy' %}
     <link rel="stylesheet" href="{{ 'css/jazzy.css' | absolute_url }}" /> 
@@ -49,7 +48,7 @@
   
   <link rel="manifest" href="{{ "/manifest.json" | absolute_url }}">
 
-  <link rel="apple-touch-startup-image" href="{{ site.url }}{{ site.baseurl }}/images/logo2.png">
+  <link rel="apple-touch-startup-image" href="{{ site.url }}{{ site.baseurl }}/images/logo.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
@@ -65,8 +64,4 @@
   {% include google-analytics.html %}
   {% endif %}
   <script src="{{ "/js/jquery.min.js" | absolute_url }}"></script>
-  <script 
-    src="//d2wy8f7a9ursnm.cloudfront.net/bugsnag-3.min.js" 
-    data-apikey="fab38c004e4e4cf378f09b64bf2929f6"
-  ></script> 
-</head>
+/head>

@@ -1,9 +1,9 @@
 title: CFPropertyList
-email: ml-flyvemdm@teclib.com
-twitter: teclib
+email: integration-team@moodle.com
+twitter: moodlehq
 baseurl: "/CFPropertyList"
-url: "https://teclib.github.io"   
-image: https://teclib.github.io/CFPropertyList/images/logo2.png 
+url: "https://moodlehq.github.io"   
+image: https://moodlehq.github.io/CFPropertyList/images/logo.png 
 
 # Build settings
 markdown: kramdown
@@ -13,7 +13,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-repository: TECLIB/CFPropertyList
+repository: moodlehq/CFPropertyList
 
 sass:
     style: compressed
