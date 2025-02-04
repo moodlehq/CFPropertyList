@@ -8,3 +8,8 @@ Makefile
 .vscode
 node-modules
 /.phpunit.cache/
+
+# Files related to the gh-pages branch.
+_site
+Gemfile.lock
+node_modules
