@@ -43,7 +43,12 @@
  * ------------------------------------------------------------------------------
  */
 
-error_reporting(E_ALL|E_STRICT);
+if (PHP_VERSION_ID >= 70400) {
+    error_reporting(E_ALL);
+} else {
+    error_reporting(E_ALL|E_STRICT);
+}
+
 ini_set('display_errors', 'on');
 
 require_once(__DIR__ . '/../vendor/autoload.php');
