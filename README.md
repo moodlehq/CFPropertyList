@@ -61,5 +61,3 @@ guidelines for [contributing](./CONTRIBUTING.md) and then check out one of our i
 ## History
 
 This repository was previously maintained by [Teclib](https://github.com/TECLIB/CFPropertyList/) but was archived. We thanks Teclib for their years of work work maintaining this project
-
-Please note that several attempts were made to contact Teclib regarding a transfer of ownership but our contact went unanswered.
