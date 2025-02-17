@@ -40,7 +40,7 @@
     "support": {
         "issues": "https://github.com/moodlehq/CFPropertyList/issues",
         "source": "https://github.com/moodlehq/CFPropertyList",
-        "docs": "http://moodlehq.github.io/CFPropertyList/howtos/",
+        "docs": "https://moodlehq.github.io/CFPropertyList/howtos/",
         "rss": "https://moodlehq.github.io/CFPropertyList/feed.xml"
     },
     "autoload": {
